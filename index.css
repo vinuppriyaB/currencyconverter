@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    margin: 0;
+    /* The image used */
+    background-image:url("background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container_size{
+    border-radius: 5px;
+    font-size: 30px;
+    padding:70px 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(24, 94, 160);
+
+}
+.heading_text{
+    font-size:100px !important;
+    text-align: center;
+}
+.row{
+    padding:50px 0px;
+}
+.row_position{
+    position: relative;
+}
+    select {
+        position:absolute;
+        
+        border: 1px solid #a4c3ca !important;
+        outline:none;
+        background: transparent !important;
+
+        border-radius: 5px !important;
+        margin:0;
+        display:block;
+       max-width:80% !important ; 
+      
+        cursor: pointer;
+        
+        padding: 5px !important;
+        font-size: 25px !important;
+        font-weight:bold !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1) !important;
+      }
+
+      .floatright{
+         text-align: center;
+      }
+      #convert_btn{
+         background-color:rgb(24, 94, 160) ;
+         color:white;
+           margin: 20px; 
+          border-radius: 10px;
+          padding:5px 10px;
+          font-family:'Times New Roman', Times, serif ;
+          
+      }
+      
+      .icon{
+          padding-top: 20%;
+       
+         text-align: center;
+      }
+      #result2{
+        font-weight: bold;
+        font-size: 50px;
+      }
+      #result1{
+          margin:20px;
+        font-size: 20px;
+      }
+      
+      .rates{
+        font-size: 30px;
+        color: darkred;
+        
+        }
+      .box{
+          margin:5px;
+          padding-left: 10px;
+          padding-bottom:70px;
+          height:100%;
+          width:100%;
+
+      }
+
+      .text_field{
+        padding: 10px 5px;
+        font: bold 25px'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 1px solid #a4c3ca;
+        background: #f1f1f1;
+        border-radius: 5px;
+        width: 90%;
+        color: black;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+      }
